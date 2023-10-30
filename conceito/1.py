@@ -13,11 +13,13 @@
 
 # usuário acrescenta na lista
     # indice 0, 1, 2, 3
-lista = [1,2,3]
+lista = [1,2,3,4]
 print(lista)
 # lista.append(int(input("Informe um inteiro: "))) # Acrescentar no final da lista
 numero = 2.5
 lista.insert(2,numero) # (indice do valor)  # Inserir o valor na posição desejada
 print(lista)
 
-# apagar um valor
+# apagar um valor, quero apagar o numero 3;
+# eu coloco #del lista [2]
+del lista [2]
